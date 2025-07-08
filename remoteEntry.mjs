@@ -1,40 +1,5 @@
 /******/ var __webpack_modules__ = ({
 
-/***/ 467:
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   A: () => (/* binding */ _asyncToGenerator)
-/* harmony export */ });
-function asyncGeneratorStep(n, t, e, r, o, a, c) {
-  try {
-    var i = n[a](c),
-      u = i.value;
-  } catch (n) {
-    return void e(n);
-  }
-  i.done ? t(u) : Promise.resolve(u).then(r, o);
-}
-function _asyncToGenerator(n) {
-  return function () {
-    var t = this,
-      e = arguments;
-    return new Promise(function (r, o) {
-      var a = n.apply(t, e);
-      function _next(n) {
-        asyncGeneratorStep(a, r, o, _next, _throw, "next", n);
-      }
-      function _throw(n) {
-        asyncGeneratorStep(a, r, o, _next, _throw, "throw", n);
-      }
-      _next(void 0);
-    });
-  };
-}
-
-
-/***/ }),
-
 /***/ 906:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -57,7 +22,7 @@ function _asyncToGenerator(n) {
 /* harmony export */   yq: () => (/* binding */ ENCODE_NAME_PREFIX)
 /* harmony export */ });
 /* unused harmony exports BROWSER_LOG_KEY, EncodedNameTransformMap, FederationModuleManifest, MANIFEST_EXT, MFModuleType, MFPrefetchCommon, MODULE_DEVTOOL_IDENTIFIER, ManifestFileName, NameTransformMap, NameTransformSymbol, SEPARATOR, StatsFileName, TEMP_DIR, assert, containerPlugin, containerReferencePlugin, createScriptNode, encodeName, error, generateExposeFilename, generateShareFilename, getProcessEnv, inferAutoPublicPath, isRequiredVersion, isStaticResourcesEqual, logger, moduleFederationPlugin, normalizeOptions, parseEntry, safeWrapper, sharePlugin, simpleJoinRemoteEntry */
-/* harmony import */ var _home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(467);
+/* harmony import */ var _home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4523);
 /* harmony import */ var _polyfills_esm_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8046);
 
 
@@ -487,7 +452,7 @@ function safeWrapper(_x, _x2) {
   return _safeWrapper.apply(this, arguments);
 }
 function _safeWrapper() {
-  _safeWrapper = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (callback, disableWarn) {
+  _safeWrapper = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (callback, disableWarn) {
     try {
       const res = yield callback();
       return res;
@@ -557,7 +522,7 @@ function createScript(info) {
     }
   }
   const onScriptComplete = /*#__PURE__*/function () {
-    var _ref = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (prev,
+    var _ref = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (prev,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     event) {
       clearTimeout(timeoutId);
@@ -713,7 +678,7 @@ function importNodeModule(name) {
   });
 }
 const loadNodeFetch = /*#__PURE__*/function () {
-  var _ref2 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* () {
+  var _ref2 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* () {
     const fetchModule = yield importNodeModule('node-fetch');
     return fetchModule.default || fetchModule;
   });
@@ -722,7 +687,7 @@ const loadNodeFetch = /*#__PURE__*/function () {
   };
 }();
 const lazyLoaderHookFetch = /*#__PURE__*/function () {
-  var _ref3 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (input, init, loaderHook) {
+  var _ref3 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (input, init, loaderHook) {
     const hook = (url, init) => {
       return loaderHook.lifecycle.fetch.emit(url, init);
     };
@@ -753,7 +718,7 @@ const createScriptNode = typeof ENV_TARGET === 'undefined' || ENV_TARGET !== 'we
     return;
   }
   const getFetch = /*#__PURE__*/function () {
-    var _ref4 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* () {
+    var _ref4 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* () {
       if (loaderHook == null ? void 0 : loaderHook.fetch) {
         return (input, init) => lazyLoaderHookFetch(input, init, loaderHook);
       }
@@ -764,7 +729,7 @@ const createScriptNode = typeof ENV_TARGET === 'undefined' || ENV_TARGET !== 'we
     };
   }();
   const handleScriptFetch = /*#__PURE__*/function () {
-    var _ref5 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (f, urlObj) {
+    var _ref5 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (f, urlObj) {
       try {
         var
         //@ts-ignore
@@ -802,13 +767,13 @@ const createScriptNode = typeof ENV_TARGET === 'undefined' || ENV_TARGET !== 'we
     };
   }();
   getFetch().then(/*#__PURE__*/function () {
-    var _ref6 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (f) {
+    var _ref6 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (f) {
       if ((attrs == null ? void 0 : attrs['type']) === 'esm' || (attrs == null ? void 0 : attrs['type']) === 'module') {
         return loadModule(urlObj.href, {
           fetch: f,
           vm: yield importNodeModule('vm')
         }).then(/*#__PURE__*/function () {
-          var _ref7 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (module) {
+          var _ref7 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (module) {
             yield module.evaluate();
             cb(undefined, module.namespace);
           });
@@ -850,7 +815,7 @@ function loadModule(_x10, _x11) {
   return _loadModule.apply(this, arguments);
 }
 function _loadModule() {
-  _loadModule = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (url, options) {
+  _loadModule = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (url, options) {
     const {
       fetch: fetch1,
       vm
@@ -860,7 +825,7 @@ function _loadModule() {
     const module = new vm.SourceTextModule(code, {
       // @ts-ignore
       importModuleDynamically: function () {
-        var _ref8 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (specifier, script) {
+        var _ref8 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (specifier, script) {
           const resolvedUrl = new URL(specifier, url).href;
           return loadModule(resolvedUrl, options);
         });
@@ -870,7 +835,7 @@ function _loadModule() {
       }()
     });
     yield module.link(/*#__PURE__*/function () {
-      var _ref9 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (specifier) {
+      var _ref9 = (0,_home_runner_work_angular_micro_frontend_angular_micro_frontend_nx_workspace_node_modules_angular_devkit_build_angular_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)(function* (specifier) {
         const resolvedUrl = new URL(specifier, url).href;
         const module = yield loadModule(resolvedUrl, options);
         return module;
@@ -933,8 +898,8 @@ __webpack_require__.d(runtime_dist_index_esm_namespaceObject, {
   registerRemotes: () => (registerRemotes)
 });
 
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__(467);
+// EXTERNAL MODULE: ./node_modules/@angular-devkit/build-angular/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
+var asyncToGenerator = __webpack_require__(4523);
 ;// ./node_modules/@module-federation/runtime-core/dist/polyfills.esm.js
 function _extends() {
   _extends = Object.assign || function assign(target) {
@@ -4902,6 +4867,41 @@ __webpack_require__.d(exports, {
 
 /***/ }),
 
+/***/ 4523:
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (/* binding */ _asyncToGenerator)
+/* harmony export */ });
+function asyncGeneratorStep(n, t, e, r, o, a, c) {
+  try {
+    var i = n[a](c),
+      u = i.value;
+  } catch (n) {
+    return void e(n);
+  }
+  i.done ? t(u) : Promise.resolve(u).then(r, o);
+}
+function _asyncToGenerator(n) {
+  return function () {
+    var t = this,
+      e = arguments;
+    return new Promise(function (r, o) {
+      var a = n.apply(t, e);
+      function _next(n) {
+        asyncGeneratorStep(a, r, o, _next, _throw, "next", n);
+      }
+      function _throw(n) {
+        asyncGeneratorStep(a, r, o, _next, _throw, "throw", n);
+      }
+      _next(void 0);
+    });
+  };
+}
+
+
+/***/ }),
+
 /***/ 8046:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -5018,7 +5018,7 @@ function _extends() {
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + ({"76":"common","286":"__federation_expose_Routes"}[chunkId] || chunkId) + "." + {"18":"eaf1ff572599b0a3","37":"d47aac77a3084565","76":"dd008a9d8d5be938","87":"c63ad302e905421a","111":"d2e013ff3a883ab9","231":"5dec28cd3df29eec","286":"5ddf2d155b7de11d","295":"ef09a84db66adfaf","567":"a95947d848691365","656":"e97ccd07f1e80355","705":"2643671f56f2b7b0"}[chunkId] + ".js";
+/******/ 		return "" + ({"76":"common","286":"__federation_expose_Routes"}[chunkId] || chunkId) + "." + {"18":"eaf1ff572599b0a3","37":"d47aac77a3084565","76":"dd008a9d8d5be938","87":"c63ad302e905421a","111":"1fd62ee642f31fd0","231":"5cbd4d9b5f552dbd","286":"5ddf2d155b7de11d","295":"c9653ac6584d7921","567":"a95947d848691365","656":"e97ccd07f1e80355","705":"a596fcafc559bb81"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
