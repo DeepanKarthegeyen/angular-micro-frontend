@@ -18,6 +18,6 @@ jobs:
         run: npm ci
         working-directory: nx-workspace
       - name: Build
-        run: npx nx build shell --configuration=production
+        run: npx nx build shell --configuration=production --verbose
         working-directory: nx-workspace
          
