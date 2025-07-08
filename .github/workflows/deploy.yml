@@ -21,6 +21,8 @@ jobs:
       - name: Build
         run: npx nx build shell --configuration=production
         working-directory: nx-workspace
+      - name: Copy index.html to 404.html
+        run: cp nx-workspace/dist/apps/shell/browser/index.html nx-workspace/dist/apps/shell/browser/404.html
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
