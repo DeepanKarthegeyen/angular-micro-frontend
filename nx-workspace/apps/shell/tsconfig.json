@@ -29,7 +29,7 @@
       "path": "./tsconfig.spec.json"
     },
     {
-      "path": "apps/shell/tsconfig.server.json"
+      "path": "./tsconfig.server.json"
     }
   ]
 }
