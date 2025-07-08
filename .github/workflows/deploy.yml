@@ -9,11 +9,15 @@
      build:
        runs-on: ubuntu-latest
        steps:
-         - uses: actions/checkout@v3
-         - name: Set up Node.js
-           uses: actions/setup-node@v3
-           with:
-             node-version: 18
-         - run: npm ci
-         - run: npx nx build shell --configuration=production
-         # Add your deploy step here (e.g., upload to S3, FTP, etc.)
+        - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm ci
+        working-directory: nx-workspace
+      - name: Build
+        run: npx nx build shell --configuration=production
+        working-directory: nx-workspace
+         
