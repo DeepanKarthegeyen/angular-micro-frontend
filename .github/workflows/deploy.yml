@@ -18,8 +18,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: nx-workspace
+      - name: Clean output directory
+        run: rm -rf nx-workspace/dist/apps/shell/browser/*
       - name: Build
-        run: npx nx build shell --configuration=production
+        run: npx nx build shell --configuration=production --base-href=/angular-micro-frontend/
         working-directory: nx-workspace
       - name: Copy index.html to 404.html
         run: cp nx-workspace/dist/apps/shell/browser/index.html nx-workspace/dist/apps/shell/browser/404.html
