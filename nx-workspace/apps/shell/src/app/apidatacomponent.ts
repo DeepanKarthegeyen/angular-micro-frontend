@@ -13,5 +13,5 @@ import { HttpClient } from '@angular/common/http';
 })
 export class Apidatacomponent {
   private http = inject(HttpClient);
-  data$ = this.http.get('http://development.eba-ia23z8jm.eu-north-1.elasticbeanstalk.com/api/dashboard/stats');
+  data$ = this.http.get('https://lludph304l.execute-api.eu-north-1.amazonaws.com/api/dashboard/stats');
 }
